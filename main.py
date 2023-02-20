@@ -168,9 +168,9 @@ def main():
 
         # Collect the feedback from users.
         num_total, num_relevant, num_non_relevant, relevant_list, non_relevant_list = collect_feedback()
-
+        
         if num_relevant == 0:
-            print('Terminate: No result is relevant in the first iteration')
+            print('Terminate: No result is relevant in this iteration')
             break
 
         # Calculate the current precision
