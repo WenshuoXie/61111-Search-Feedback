@@ -1,4 +1,4 @@
-# 61111-Search-Feedback
+# COMS6111-Project1
 
 ## Team
 Name And UNI: (Ziran Liu, zl3234) & (Wenshuo Xie, wx2283)
