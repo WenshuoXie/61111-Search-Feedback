@@ -9,6 +9,7 @@ Name | Description
 main.py | Information Retrieval System
 transcript.pdf | A transcript of the runs on 3 test cases
 requirements.txt | Project dependencies
+README.pdf | Project description
 
 ## Run
 ```bash
