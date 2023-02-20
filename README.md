@@ -36,7 +36,7 @@ The system takes a query, retrieves search results from Google, collects user fe
   - Third, We calculate the new query vector using the Rocchio algorithm. (``new_query_vector = alpha * query_vector + beta * relevant_centroid - gamma * non_relevant_centroid``) We set alpha = 1, beta = 0.75 and gamma = 0.15.
   - Fourth, We select two words with the lowest weight from new query vector as the new words. These two words are not duplicated with the old query.
   
-1. Sort new query: We use N-gram model
+2. Sort new query: We use N-gram model
   - First, we take the first word in new query as ``sorted_words``.
   - Second, We traverse the remaining words in the new query and insert the remaining word into ``sorted_words`` at the position with max bigram score.
   - The bigram score is calculated based on the number of occurrences of the bigram in the relevant document.
